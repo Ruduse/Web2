@@ -1,0 +1,22 @@
+
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thông tin người dùng</title>
+  <!-- Liên kết đến file CSS -->
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+
+<h1>Thông tin chi tiết người dùng</h1>
+<h2 th:text="${userName}">User: </h2>
+
+<!-- Thêm ảnh -->
+<div class="profile-picture">
+  <img th:src="@{/images/hotboy.jpg}" alt="Profile Picture">
+</div>
+
+</body>
+</html>

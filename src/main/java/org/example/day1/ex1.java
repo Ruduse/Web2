@@ -1,13 +1,9 @@
 package org.example.day1;
 
-
-
-public class Main {
+public class ex1 {
     public static void main(String[] args) {
         System.out.println("Hello world! This is my favourite song");
         System.out.println("Its name is Perfect");
-        LyricsOfPerfectSong song = new LyricsOfPerfectSong();
-        System.out.println(song.getLyrics());
+
     }
 }
-//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
